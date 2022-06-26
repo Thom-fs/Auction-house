@@ -1,0 +1,256 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FIN RESET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FIN RESET xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*xxxxxxxxxxxx GLOBAL xxxxxxxxxxxxxx */
+
+/* -- Jaune : #efd200 // Bleu : #2a3d91 // Rouge : #bc1818-- */
+
+body {
+  font-family: 'Roboto', sans-serif;;
+}
+
+a {
+  text-decoration: none;
+  color: #2a3d91;
+  font-weight: bold;
+}
+
+.bouton:hover a {
+  color: white;
+}
+
+.bouton {
+  background: white;
+  border: 2px solid #2a3d91;
+  border-radius: 8px;
+  padding: 5px 15px;
+  color: #2a3d91;
+  font-weight: bold;
+  margin: 15px 5px;
+}
+
+.bouton:hover {
+  background: #2a3d91;
+  color: white;
+}
+
+main {
+  padding: 3%;
+}
+
+input, select{
+  background: white;
+  border: 2px solid #2a3d91;
+    border-radius: 8px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    color: #2a3d91;
+}
+
+.labelAndInput{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #2a3d91;
+  margin-bottom: 3%;
+}
+
+/*xxxxxxxxxxxx GLOBAL xxxxxxxxxxxxxx */
+
+/*xxxxxxxxxxxx HEADER xxxxxxxxxxxxxx*/
+
+header {
+  background-image: url(/../img/fondHeader.png);
+  background-position: top;
+    background-size: cover;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding: 0% 3%;
+}
+
+nav {
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+  width: 12%;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+
+/*xxxxxxxxxxxx HEADER xxxxxxxxxxxxxx*/
+
+/*xxxxxxxxxxxx MAIN xxxxxxxxxxxxxxxx*/
+
+#annonce {
+  margin-top: 5%;
+  display: flex;
+  border-radius: 10px;
+    width: 73%;
+    box-shadow: 0px 3px 9px lightgrey;
+    padding: 3%;
+    flex-wrap: wrap;
+}
+
+#annonce h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.image {
+  width: 27%;
+}
+
+.aPropos{
+  width: 33.3%;
+    padding: 2% 0%;
+    line-height: 2;
+}
+
+.aPropos form {
+  position: relative;
+  bottom: -40px;
+    right: -60px;
+
+}
+
+.annonceUnique {
+  width: 95%!important; 
+  margin: 2% auto!important;
+}
+
+.aProposAnnonceUnique {
+  width: 50%; 
+  padding-top: 4%;
+}
+
+.imageAnnonceUnique {
+  padding: 2%;
+}
+
+#formEnchere {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 3%;
+    width: 95%;
+}
+
+.formNouvelleAnnonce {
+  width: 75%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.divFormNouvelleAnnonce {
+  width: 30%;
+  margin: 3%;
+}
+
+.boutonFormNouvelleAnnonce{
+  width: 65%;
+}
+
+.divSubmitNouvelleAnnonce{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formInscription {
+  margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 3%;
+    width: 30%;
+    padding: 3%;
+}
+/*xxxxxxxxxxx MAIN xxxxxxxxxxxxxxxxx*/
+
+/*xxxxxxxxxxx FOOTER xxxxxxxxxxxxxxx*/
+
+#sachaEtPika {
+  width: 25%;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
+
+/*xxxxxxxxxxx FOOTER xxxxxxxxxxxxxxx*/
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FIN CSS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FIN CSS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+
