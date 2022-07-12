@@ -106,7 +106,6 @@ require_once __DIR__ . "/includes/request.annonce.include.php";
             <div class="divFormNouvelleAnnonce divSubmitNouvelleAnnonce">
                 <input class="boutonFormNouvelleAnnonce bouton" type="submit" value="Poster l'annonce">
             </div>
-
         </form>
 
     </main>
